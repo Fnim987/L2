@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: python:3.7.3-stretch
-      resource_class: medium
+    - image: python:3.7.3-stretch
+    resource_class: medium
 
     working_directory: ~/repo
 
